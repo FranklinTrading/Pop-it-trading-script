@@ -504,7 +504,14 @@ Section:NewToggle("auto comprar demogorgan", "auto Comprar", function(state)
     end
 end)
 
-
+Section:NewToggle("auto buy Inxta", "auto buys", function(state)
+    if state then
+        _G.on = true
+        while _G.on do
+            wait()
+            local args = {
+                [1] = "Inxta"
+            }
 
 
 
