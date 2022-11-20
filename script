@@ -224,17 +224,6 @@ Section:NewButton("buy box Toy Noob", "buys item", function()
 end)
 
 
-Section:NewButton("buy box toy House (Patched)", "buys item", function()
-    local args = {
-        [1] = "Box Toy House"
-    }
-    
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
-
-    
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
 
 
 local Tab = Window:NewTab("Comprar exclusivas auto")
