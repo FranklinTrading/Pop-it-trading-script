@@ -108,7 +108,7 @@ Section:NewButton("Buy stranger things bike", "buys it", function()
 end)
 
 
-Section:NewButton("buy denigirgan", "buys item", function()
+Section:NewButton("buy demogorgan", "buys item", function()
     local args = {
         [1] = "Demogorgan"
     }
@@ -117,7 +117,7 @@ Section:NewButton("buy denigirgan", "buys item", function()
 end)
 
 
-Section:NewButton("buy denigirgan Kawaii", "buys item", function()
+Section:NewButton("buy demogorgan Kawaii", "buys item", function()
     local args = {
         [1] = "Demogorgan Kawaii"
     }
