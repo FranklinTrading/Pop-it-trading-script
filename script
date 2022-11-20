@@ -232,9 +232,9 @@ Section:NewButton("buy box toy House (Patched)", "buys item", function()
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 end)
 
-local Tab = Window:NewTab("AUTO BUY NFT ITEM")
+local Tab = Window:NewTab("Comprar exclusivas auto")
 
-local Section = Tab:NewSection("AUTO BUY NFT ITEM")
+local Section = Tab:NewSection("compra exclusivos automaticamente")
 
 
 Section:NewToggle("auto buy f's", "auto buys f", function(state)
