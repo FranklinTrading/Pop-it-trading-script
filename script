@@ -234,7 +234,7 @@ end)
 
 Section:NewButton("buy golden poop", "buys item", function()
     local args = {
-        [1] = "golden poop"
+        [1] = "Bed"
     }
     
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
