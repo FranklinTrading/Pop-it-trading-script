@@ -1,10 +1,10 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("buy robux items", "BloodTheme")
+local Window = Library.CreateLib("Creado por franklintrcb#7729", "BloodTheme")
 
 
-local Tab = Window:NewTab("BUY NFT ITEM")
+local Tab = Window:NewTab("Comprar exclusivos")
 
-local Section = Tab:NewSection("BUY NFT ITEM")
+local Section = Tab:NewSection("Comprar automaticamente")
 
 Section:NewButton("buy F", "cost 50 k", function()
 local args = {
