@@ -232,9 +232,9 @@ Section:NewButton("buy box toy House (Patched)", "buys item", function()
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 end)
 
-Section:NewButton("buy bed", "buys item", function()
+Section:NewButton("buy golden poop", "buys item", function()
     local args = {
-        [1] = "Bed"
+        [1] = "golden poop"
     }
     
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
