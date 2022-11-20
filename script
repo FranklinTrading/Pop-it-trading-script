@@ -1,15 +1,15 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Creado por franklintrcb#7729", "BloodTheme")
+local Window = Library.CreateLib("buy robux items", "BloodTheme")
 
 
-local Tab = Window:NewTab("Comprar Objetos")
+local Tab = Window:NewTab("buy robux  items")
 
 
-local Section = Tab:NewSection("Compras seccion")
+local Section = Tab:NewSection("buy items")
 
 
 
-Section:NewButton("Comprar F", "costo 50 k", function()
+Section:NewButton("buy F", "cost 50 k", function()
     
 local args = {
     [1] = "F"
@@ -20,7 +20,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("Comprar caja de Harambe", "Costo 1m", function()
+Section:NewButton("buy box toy Harambe", "for 1m", function()
     
 local args = {
     [1] = "Box Toy Harambe"
@@ -31,7 +31,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("Comprar caja de sanic", "Costo 50 k", function()
+Section:NewButton("buy box toy sanic", "for 50 k", function()
     
 local args = {
     [1] = "Box Toy Sanic"
@@ -42,7 +42,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("Comprar caja de Sadman", "Comprar por 50k", function()
+Section:NewButton("buy box toy SandMan", "for 50 k", function()
     
 local args = {
     [1] = "Box Toy SandMan"
@@ -53,7 +53,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("Comprar letra A", "Costo 20 k", function()
+Section:NewButton("Buy letter A", "for 20 k", function()
     
 local args = {
     [1] = "A"
@@ -64,7 +64,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("Comprar caja de lem", "Costo 60 k", function()
+Section:NewButton("buy Box toy Lem", "for 60 k", function()
     
 local args = {
     [1] = "Box Toy Lem"
@@ -74,7 +74,7 @@ game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(
 end)
 
 
-Section:NewButton("Comprar XOX Controller", "Comprar esto", function()
+Section:NewButton("Buy XOX Controller", "buys it", function()
     local args = {
         [1] = "XOX Controller"
     }
@@ -83,7 +83,7 @@ Section:NewButton("Comprar XOX Controller", "Comprar esto", function()
 end)
 
 
-Section:NewButton("Comprar Dart", "Comprar esto", function()
+Section:NewButton("Buy Dart", "buys it", function()
     local args = {
         [1] = "Dart"
     }
@@ -92,7 +92,7 @@ Section:NewButton("Comprar Dart", "Comprar esto", function()
 end)
 
 
-Section:NewButton("Comprar bicicleta de stranger things", "Comprar esto", function()
+Section:NewButton("Buy stranger things bike", "buys it", function()
     local args = {
         [1] = "Retro Bike"
     }
@@ -101,7 +101,7 @@ Section:NewButton("Comprar bicicleta de stranger things", "Comprar esto", functi
 end)
 
 
-Section:NewButton("Comprar demogorgan", "Comprar esto", function()
+Section:NewButton("buy denigirgan", "buys item", function()
     local args = {
         [1] = "Demogorgan"
     }
@@ -110,7 +110,7 @@ Section:NewButton("Comprar demogorgan", "Comprar esto", function()
 end)
 
 
-Section:NewButton("Comprar demogorgan kawai", "Comprar esto", function()
+Section:NewButton("buy denigirgan Kawaii", "buys item", function()
     local args = {
         [1] = "Demogorgan Kawaii"
     }
@@ -119,7 +119,7 @@ Section:NewButton("Comprar demogorgan kawai", "Comprar esto", function()
 end)
 
 
-Section:NewButton("Comprar Walky Talky", "Comprar esto", function()
+Section:NewButton("buy Walky Talky", "buys item", function()
     local args = {
         [1] = "Walky Talky"
     }
@@ -128,7 +128,7 @@ Section:NewButton("Comprar Walky Talky", "Comprar esto", function()
 end)
 
 
-Section:NewButton("Comprar todas las letras", "Comprar los objetos", function()
+Section:NewButton("buy all letter items", "buys items", function()
     local args = {
         [1] = "C"
     }
@@ -172,7 +172,7 @@ Section:NewButton("Comprar todas las letras", "Comprar los objetos", function()
 end)
 
 
-Section:NewButton("Comprar green Ooze", "Compras esto", function()
+Section:NewButton("buy green Ooze", "buys item", function()
     local args = {
         [1] = "Green Ooze"
     }
@@ -181,7 +181,7 @@ Section:NewButton("Comprar green Ooze", "Compras esto", function()
 end)
 
 
-Section:NewButton("comprar caja dentro de otra caja", "Comprar esto", function()
+Section:NewButton("buy box toy box toy", "buys item", function()
     local args = {
         [1] = "Box Toy Box Toy"
     }
@@ -190,7 +190,7 @@ Section:NewButton("comprar caja dentro de otra caja", "Comprar esto", function()
 end)
 
 
-Section:NewButton("Comprar caja de huevo", "Comprar esto", function()
+Section:NewButton("buy box Egg", "buys item", function()
     local args = {
         [1] = "Box Toy Egg"
     }
@@ -199,7 +199,7 @@ Section:NewButton("Comprar caja de huevo", "Comprar esto", function()
 end)
 
 
-Section:NewButton("Comprar caja de aire", "Compra esto", function()
+Section:NewButton("buy box toy Air", "buys item", function()
     local args = {
         [1] = "Box Toy Air"
     }
@@ -208,7 +208,7 @@ Section:NewButton("Comprar caja de aire", "Compra esto", function()
 end)
 
 
-Section:NewButton("Comprar caja de Noob", "Comprar esto", function()
+Section:NewButton("buy box Toy Noob", "buys item", function()
     local args = {
         [1] = "Box Toy Noob"
     }
@@ -217,17 +217,17 @@ Section:NewButton("Comprar caja de Noob", "Comprar esto", function()
 end)
 
 
-Section:NewButton("Comprar casa de juguete", "Comprar esto", function()
+Section:NewButton("buy box toy House", "buys item", function()
     local args = {
         [1] = "Box Toy House"
     }
     
     game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
 end)
-local Section = Tab:NewSection("auto compras")
+local Section = Tab:NewSection("toggles")
 
 
-Section:NewToggle("auto comprar f's", "auto comprar f", function(state)
+Section:NewToggle("auto buy f's", "auto buys f", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -244,7 +244,7 @@ Section:NewToggle("auto comprar f's", "auto comprar f", function(state)
 end)
 
 
-Section:NewToggle("auto comprar caja harambe", "auto compra", function(state)
+Section:NewToggle("auto buy harambe", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -261,7 +261,7 @@ Section:NewToggle("auto comprar caja harambe", "auto compra", function(state)
 end)
 
 
-Section:NewToggle("auto comprar caja sanic", "auto compra", function(state)
+Section:NewToggle("auto buy Box Toy Sanic", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -278,7 +278,7 @@ Section:NewToggle("auto comprar caja sanic", "auto compra", function(state)
 end)
 
 
-Section:NewToggle("auto comprar sandman", "auto comprar", function(state)
+Section:NewToggle("auto buy sandman", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -295,7 +295,7 @@ Section:NewToggle("auto comprar sandman", "auto comprar", function(state)
 end)
 
 
-Section:NewToggle("auto comprar a", "auto compra", function(state)
+Section:NewToggle("auto buy a", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -312,7 +312,7 @@ Section:NewToggle("auto comprar a", "auto compra", function(state)
 end)
 
 
-Section:NewToggle("auto compra caja de lem", "auto compra", function(state)
+Section:NewToggle("auto buy Box Toy Lem", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -329,7 +329,7 @@ Section:NewToggle("auto compra caja de lem", "auto compra", function(state)
 end)
 
 
-Section:NewToggle("auto compra XOX Controller", "auto compra", function(state)
+Section:NewToggle("auto buy XOX Controller", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -346,7 +346,7 @@ Section:NewToggle("auto compra XOX Controller", "auto compra", function(state)
 end)
 
 
-Section:NewToggle("auto compra Dart", "auto compra", function(state)
+Section:NewToggle("auto buy Dart", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -363,7 +363,7 @@ Section:NewToggle("auto compra Dart", "auto compra", function(state)
 end)
 
 
-Section:NewToggle("auto compra stranger thinks bicicletas", "auto compra", function(state)
+Section:NewToggle("auto buy stranger thinks bike", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -380,7 +380,7 @@ Section:NewToggle("auto compra stranger thinks bicicletas", "auto compra", funct
 end)
 
 
-Section:NewToggle("auto comprar caja de aire", "auto comprar", function(state)
+Section:NewToggle("auto buy Box Toy Air", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -395,7 +395,7 @@ Section:NewToggle("auto comprar caja de aire", "auto comprar", function(state)
         _G.on = false
     end
 end)
-Section:NewToggle("auto compra caja de noob", "auto comprar", function(state)
+Section:NewToggle("auto buy Box Toy Noob", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -410,7 +410,7 @@ Section:NewToggle("auto compra caja de noob", "auto comprar", function(state)
         _G.on = false
     end
 end)
-Section:NewToggle("auto comprar dardo", "auto comprar", function(state)
+Section:NewToggle("auto buy Dart", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -425,7 +425,7 @@ Section:NewToggle("auto comprar dardo", "auto comprar", function(state)
         _G.on = false
     end
 end)
-Section:NewToggle("auto compra walky talky", "auto comprar", function(state)
+Section:NewToggle("auto buy walky talky", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -440,7 +440,7 @@ Section:NewToggle("auto compra walky talky", "auto comprar", function(state)
         _G.on = false
     end
 end)
-Section:NewToggle("auto comprar caja de aire", "auto compra", function(state)
+Section:NewToggle("auto buy Box Toy air", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -455,7 +455,7 @@ Section:NewToggle("auto comprar caja de aire", "auto compra", function(state)
         _G.on = false
     end
 end)
-Section:NewToggle("auto comprar caja dentro de caja", "auto comprar", function(state)
+Section:NewToggle("auto buy box toy box toy", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
@@ -470,31 +470,13 @@ Section:NewToggle("auto comprar caja dentro de caja", "auto comprar", function(s
         _G.on = false
     end
 end)
-Section:NewToggle("auto comprar demogorgan Kawai", "auto compra", function(state)
+Section:NewToggle("auto buy Green Ooze", "auto buys", function(state)
     if state then
         _G.on = true
         while _G.on do
             wait()
             local args = {
-                [1] = "Demogorgan Kawaii"
-            }
-            
-            game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-        end
-    else
-        _G.on = false
-    end
-end) 
- 
-
-
-Section:NewToggle("auto comprar demogorgan", "auto Comprar", function(state)
-    if state then
-        _G.on = true
-        while _G.on do
-            wait()
-            local args = {
-                [1] = "Demogorgan"
+                [1] = "Green Ooze"
             }
             
             game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
@@ -503,35 +485,3 @@ Section:NewToggle("auto comprar demogorgan", "auto Comprar", function(state)
         _G.on = false
     end
 end)
-
-Section:NewToggle("auto buy Inxta", "auto buys", function(state)
-    if state then
-        _G.on = true
-        while _G.on do
-            wait()
-            local args = {
-                [1] = "Inxta"
-            }
-
-
-
-
-wait(0.5)local ba=Instance.new("ScreenGui")
-local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
-local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
-ba.ZIndexBehavior=Enum.ZIndexBehavior.Sibling;ca.Parent=ba;ca.Active=true
-ca.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ca.Draggable=true
-ca.Position=UDim2.new(0.698610067,0,0.098096624,0)ca.Size=UDim2.new(0,304,0,52)
-ca.Font=Enum.Font.SourceSansSemibold;ca.Text="Anti Afk Kick Script"ca.TextColor3=Color3.new(0,1,1)
-ca.TextSize=22;da.Parent=ca
-da.BackgroundColor3=Color3.new(0.196078,0.196078,0.196078)da.Position=UDim2.new(0,0,1.0192306,0)
-da.Size=UDim2.new(0,304,0,107)_b.Parent=da
-_b.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)_b.Position=UDim2.new(0,0,0.800455689,0)
-_b.Size=UDim2.new(0,304,0,21)_b.Font=Enum.Font.Arial;_b.Text="Creado por franklintrcb#7729"
-_b.TextColor3=Color3.new(1,1,1)_b.TextSize=20;ab.Parent=da
-ab.BackgroundColor3=Color3.new(0.176471,0.176471,0.176471)ab.Position=UDim2.new(0,0,0.158377379,0)
-ab.Size=UDim2.new(0,304,0,44)ab.Font=Enum.Font.ArialBold;ab.Text="Estado: el script esta iniciado"
-ab.TextColor3=Color3.new(1,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
-game:service'Players'.LocalPlayer.Idled:connect(function()
-bb:CaptureController()bb:ClickButton2(Vector2.new())
-ab.Text="You went idle and ROBLOX tried to kick you but we reflected it!"wait(2)ab.Text="Script Re-Enabled"end)
